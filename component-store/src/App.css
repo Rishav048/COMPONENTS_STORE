@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  font-family: cursive;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  display: inline-block;
+  background: linear-gradient(to right, blue, red, green, yellow, orange);
+  color: rgb(255, 255, 255);
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+
+#components_container {
+  border: 2px solid rgb(114, 110, 110);
+  height: 100rem;
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+.name {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(96, 119, 119);
+}
+
+/* Analog Button */
+
+#analogbtn {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  color: #e9ebf3;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(245, 109, 31);
+  outline: 0ch;
+  border: none;
+  border-radius: 8px;
+  box-shadow: #1943cc 16px 16px 16px 0px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#analogbtn:active {
+  transform: translate(4px, 4px);
+  box-shadow: #1943cc 0px 0px 0px 0px;
+  color: blue;
+}
